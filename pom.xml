@@ -6,8 +6,9 @@
 
     <groupId>org.example</groupId>
     <artifactId>KafkaBeginner</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
+    <dependencies>
 
     <dependency>
         <groupId>org.apache.kafka</groupId>
@@ -21,6 +22,11 @@
         <artifactId>slf4j-simple</artifactId>
         <version>1.7.30</version>
         <!--<scope>test</scope>-->
+    </dependency>
+    <dependency>
+        <groupId>com.twitter</groupId>
+        <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
+        <version>2.2.0</version> <!-- or whatever the latest version is -->
     </dependency>
 
 
